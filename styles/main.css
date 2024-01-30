@@ -1,0 +1,93 @@
+
+:root{
+    --primary :#CDD5C6;
+    --secondry:#FBF2ED;
+    --third:#B7BCBF;
+    --forth:#E8D4C6;
+    --fifth:#FFE2C3;
+
+}
+body{
+    background-color: var(--secondry);
+
+}
+html{
+    background-color: var(--forth);
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 3px solid var(--third);
+    padding-bottom: 20px;
+}
+.image img{
+    margin-top: 10px;
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius:50%;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+  
+}
+.links a i{
+    font-size: 45px;
+    margin-top: 20px;
+}
+.menu{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid var(--forth);
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.titles{
+    text-align: center;
+}
+.main{
+    display: flex;
+   height: 50vh;
+}
+.menu a{
+    text-decoration: none;
+
+}
+.contentHome{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contentAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80pw;
+    padding: 25px;
+   
+}
+.contentProjects ul li a{
+    text-decoration: none;
+
+}
+.contentProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80pw;
+    padding: 25px;
+}
